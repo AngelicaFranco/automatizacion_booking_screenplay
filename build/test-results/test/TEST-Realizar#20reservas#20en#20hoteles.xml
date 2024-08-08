@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Realizar reservas en hoteles" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-08-08T23:03:53" hostname="QV-5264" time="51.045">
+  <properties/>
+  <testcase name="Inicio de sesión exitoso" classname="Realizar reservas en hoteles" time="51.045">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &quot;Pruebas Automatizacion&quot;&#10;     but: was &quot;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &quot;Pruebas Automatizacion&quot;
+     but: was &quot;&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.com.booking.stepdefinitions.LoginStepDefinition.elSistemaPermitiráIngresarALaPáginaDeBooking(LoginStepDefinition.java:51)
+	at ✽.el sistema permitirá ingresar a la página de Booking(file:///C:/Users/Afranco/Desktop/Angelica/Automatización/Qvision/co.com.sbooking/src/test/resources/features/booking.feature:12)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[ago. 08, 2024 6:03:57 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+</testsuite>

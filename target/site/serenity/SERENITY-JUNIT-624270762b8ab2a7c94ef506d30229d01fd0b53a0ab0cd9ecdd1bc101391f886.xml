@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Realizar reservas en hoteles" skipped="0" tests="1" time="49.43" timestamp="2024-08-08 06:03:54"><testcase name="Inicio de sesión exitoso"><failure message="&#10;Expected: is &quot;Pruebas Automatizacion&quot;&#10;     but: was &quot;&quot;" type="java.lang.AssertionError">
+Expected: is "Pruebas Automatizacion"
+     but: was ""</failure><system-err>
+Expected: is "Pruebas Automatizacion"
+     but: was ""&#13;
+co.com.booking.stepdefinitions.LoginStepDefinition.elSistemaPermitiráIngresarALaPáginaDeBooking(LoginStepDefinition.java:51)&#13;
+</system-err></testcase></testsuite>
